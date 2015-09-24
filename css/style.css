@@ -51,6 +51,9 @@
 }
 /*** Helpers ***/
 /*** Common Elements ***/
+body {
+    font-family: Roboto;
+}
 a:focus,
 a:active {
   outline: none;
@@ -64,6 +67,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 table {
   border-collapse: collapse;
@@ -90,16 +98,23 @@ h6 {
 /*** Links ***/
 /*** Links ***/
 /*** Containers ***/
+.container-main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /*** Containers ***/
 /*** Buttons ***/
 /*** Buttons ***/
 /*** Icons ***/
 /*** Icons ***/
 /*** Misc ***/
-.test {
-  display: block;
-  color: red;
-}
 /*** Misc ***/
 /*** Media Queries ***/
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
 /*** Media Queries ***/
